@@ -36,7 +36,7 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 
 ## Trước khi nộp — kiểm 5 điều
 
-1. `python -m zipfile -l export_final.zip` (chạy được trên Windows, macOS, Linux) chỉ thấy `annotations.xml`, không có `.png`/`.jpg`.
+1. `python -m zipfile -l export_final.zip` (chạy được trên Windows, macOS, Linux) chỉ thấy `../annotations.xml`, không có `.png`/`.jpg`.
 2. `check_final.txt` có dòng `Kết quả: 0 lỗi`.
 3. Tên file đúng như trên (coach chấm bằng script).
 4. Không kèm `manifest.csv`, ảnh, hay thư mục `Gxx/`.

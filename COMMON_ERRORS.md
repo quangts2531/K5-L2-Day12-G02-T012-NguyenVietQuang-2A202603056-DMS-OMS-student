@@ -38,7 +38,7 @@ Tra bảng này trước khi hỏi coach. Cột "Tự kiểm" chỉ ra cách b�
 | `face13` mới vẽ nằm thẳng đứng như mặt nhìn thẳng | CVAT đặt template 13 điểm theo chiều đứng | Trên D## xoay 90°, kéo từng điểm về đúng chỗ: mắt trái có y lớn hơn. `cabin_check` chỉ so trục x nên không tự bắt được template đặt sai chiều |
 | Quên tag `frame_meta` | `cabin_check` ERROR "thiếu frame_meta" | Đặt tag **trước** khi vẽ box đầu tiên của mỗi ảnh |
 | `modality` sai | Ảnh `_ir` ghi `rgb` | Nhìn tên file. D## đều là `ir` |
-| Export kèm ảnh | Zip nặng hàng chục MB | Bỏ chọn "Save images" khi export. `python -m zipfile -l export_final.zip` chỉ được thấy `annotations.xml` |
+| Export kèm ảnh | Zip nặng hàng chục MB | Bỏ chọn "Save images" khi export. `python -m zipfile -l export_final.zip` chỉ được thấy `../annotations.xml` |
 | Checkpoint báo hàng chục lỗi "cần đúng 1 tag frame_meta, đang có 0" | Lỗi nằm ở các ảnh bạn chưa gán | CVAT export cả task. Ở checkpoint thêm `--only S01,S02` (hoặc `--only D01,D02`) để chỉ kiểm ảnh đã làm |
 | Lần cuối còn lỗi thiếu frame_meta ở S09/S10 | Task có 26 ảnh | Task chính chỉ có 22 ảnh cốt lõi (GUIDE Task 0). Nếu đã lỡ tạo 26 ảnh: kiểm lần cuối với `--only S01,S02,S03,S04,S05,S06,S07,S08,D01,D02,D03,D04,D05,D06` (thay `--expect 22`) và ghi một dòng giải thích ở cuối `check_final.txt` |
 | File `check_*.txt` lỗi chữ, hoặc script báo `UnicodeEncodeError` | Chạy bằng `> file` trên Windows, hoặc dùng script cũ trong `Gxx/scripts` | Dùng `scripts/cabin_check.py` của repo và `--out check_xxx.txt` thay cho `> check_xxx.txt` |

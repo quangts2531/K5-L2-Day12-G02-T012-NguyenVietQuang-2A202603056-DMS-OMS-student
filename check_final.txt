@@ -1,0 +1,5 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02, S03, S04, S05, S06, S07, S08, D01, D02, D03, D04, D05, D06
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=6, face13=6, hand=13, infant_seat=4, object=10, person=4
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú: Task/export có 26 ảnh vì gồm thêm S09–S10. Lần kiểm cuối chỉ kiểm 22 ảnh cốt lõi S01–S08 và D01–D06 bằng --only, theo hướng dẫn trong COMMON_ERRORS.md; S09–S10 thuộc phần mở rộng.
