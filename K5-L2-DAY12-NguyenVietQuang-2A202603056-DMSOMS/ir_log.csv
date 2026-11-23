@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+D01,real_IR,"Mắt phải khó phân biệt trên ảnh NIR; review có nhãn unknown và closed",eye_right,"unknown nếu không phân biệt rõ; chỉ closed khi thấy mí khép rõ"
+D06,real_IR,"Dây an toàn khó nhận diện rõ trên ảnh NIR; review từng lệch unknown và worn_correct",seatbelt,"worn_correct chỉ khi thấy rõ dải chéo vai-hông; nếu bị che hoặc không rõ thì unknown"
+S01_ir,IR_sim,"Dây an toàn khó phân biệt trên ảnh IR-sim; review từng lệch unknown và not_worn",seatbelt,"not_worn khi thấy rõ không có dây; unknown nếu khó nhìn; không suy từ ảnh khác"
+S03_ir,IR_sim,"Tình trạng bên trong child_seat khó xác định trên ảnh IR-sim; review từng lệch occupied=no và yes",child_seat.occupied,"no nếu thấy rõ ghế trống; unknown nếu bên trong bị che hoặc không rõ; không dùng yes"

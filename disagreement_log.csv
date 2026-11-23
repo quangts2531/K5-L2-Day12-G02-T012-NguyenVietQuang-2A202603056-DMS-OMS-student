@@ -3,29 +3,22 @@ S09_ir.png,-,image,chỉ có ở mine,,,,,
 S09_rgb.png,-,image,chỉ có ở mine,,,,,
 S10_ir.png,-,image,chỉ có ở mine,,,,,
 S10_rgb.png,-,image,chỉ có ở mine,,,,,
-D01.png,frame_meta,light,khác giá trị,night,unknown,,,
+D01.png,face,eye_right,khác giá trị (IoU=0.70),unknown,closed,,,
 D01.png,face,gaze_zone,khác giá trị (IoU=0.70),mirror_r,other,,,
 D01.png,face13,right_eye_outer.occluded,khác cờ,0,1,,,
+D01.png,face13,right_eye_outer.outside,khác cờ,1,0,,,
 D01.png,face13,right_eye_inner.occluded,khác cờ,0,1,,,
+D01.png,face13,right_eye_inner.outside,khác cờ,1,0,,,
 D01.png,face13,right_eye_upper.occluded,khác cờ,0,1,,,
+D01.png,face13,right_eye_upper.outside,khác cờ,1,0,,,
 D01.png,face13,right_eye_lower.occluded,khác cờ,0,1,,,
-D01.png,face13,mouth_right.occluded,khác cờ,1,0,,,
-D02.png,frame_meta,light,khác giá trị,night,unknown,,,
-D03.png,frame_meta,light,khác giá trị,night,unknown,,,
-D04.png,frame_meta,light,khác giá trị,night,unknown,,,
-D04.png,face13,mouth_right.occluded,khác cờ,0,1,,,
-D04.png,face13,lip_lower.occluded,khác cờ,0,1,,,
-D05.png,frame_meta,light,khác giá trị,night,unknown,,,
-D06.png,frame_meta,light,khác giá trị,night,unknown,,,
-D06.png,person,seatbelt,khác giá trị (IoU=0.93),unknown,worn_correct,,,
-S01_rgb.png,infant_seat,seat,khác giá trị (IoU=0.96),rear_right,rear_left,,,
-S01_rgb.png,person,seat,khác giá trị (IoU=0.97),rear_left,rear_right,,,
-S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.94),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.94),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.97),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S04_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S06_ir.png,child_seat,occupied,khác giá trị (IoU=0.95),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S06_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
-S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.90),no,yes,mine,GUIDE §4.8,"Giữ mine=no; peer sửa yes thành no"
+D01.png,face13,right_eye_lower.outside,khác cờ,1,0,,,
+S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.94),no,yes,,,
+S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.94),no,yes,,,
+S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.97),no,yes,,,
+S04_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),no,yes,,,
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,,,
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,,,
+S06_ir.png,child_seat,occupied,khác giá trị (IoU=0.95),no,yes,,,
+S06_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),no,yes,,,
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.90),no,yes,,,
